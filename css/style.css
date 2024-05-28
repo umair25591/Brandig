@@ -5008,12 +5008,12 @@ html.is-animating .mil-menu-frame {
 }
 
 .brand-para {
-  font-size: 15px;
+  font-size: 18px;
   margin: 0;
 }
 
 .brand-head {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 800;
   margin: 0;
 }
@@ -5048,7 +5048,56 @@ html.is-animating .mil-menu-frame {
     transform: translateX(-100%);
   }
 }
+.btn1-text-box{
+  font-size: 20px;
+  vertical-align: middle;
+}
+.btn1-icon-box{
+  margin-left: 28px;
+  margin-top: 0px; 
+  font-size: 25px;
+}
+.button1{
+  padding: 8px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #FF4D03;
+  height: 50px;
+  border-radius: 50px;
+  transition: all linear 0.3s;
+}
+.button1:hover{
+  background-color: #be3900;
+  color: white;
+}
 
+.btn2-text-box{
+  font-size: 20px;
+  vertical-align: middle;
+}
+.btn2-icon-box{
+  margin-top: 0px; 
+  margin-left: 28px;
+  font-size: 25px;
+
+}
+.button2{
+  padding: 8px 30px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #ff4f0300;
+  height: 50px;
+  border-radius: 50px;
+  transition: all linear 0.3s;
+}
+.button2:hover{
+  background-color: #FF4D03;
+  color: white;
+}
+
+.arrow-icon{
+  margin-top: 5px;
+}
 @media only screen and (max-width:1700px) {
   .heading {
     font-size: 40px;
@@ -5073,6 +5122,43 @@ html.is-animating .mil-menu-frame {
 
 
 @media only screen and (max-width:1470px) {
+  .button1{
+    padding: 8px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF4D03;
+    height: 50px;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+  }
+  .btn1-text-box{
+    font-size: 18px;
+  }
+  .btn1-icon-box{
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+
+
+
+
+  .button2{
+    padding: 6px 10px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ff4f0300;
+    height: 50px;
+    border-radius: 50px;
+    transition: all linear 0.3s;
+  }
+  .btn2-text-box{
+    font-size: 18px;
+  }
+  .btn2-icon-box{
+    margin-left: 10px;
+    font-size: 25px;
+  }
   .nav-link1 {
     font-size: 18px;
   }
